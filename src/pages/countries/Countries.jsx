@@ -1,12 +1,9 @@
 import React from 'react'
-    import { useEffect } from 'react'
-    import { useState } from 'react'
-   import "./effect.css"
+import { useEffect } from 'react'
+import { useState } from 'react'
+import "./countries.css"
 
-
-const Effect = () => {
-    
-    
+const Countries = () => {
     
         const [data, setData] = useState([])
     
@@ -17,10 +14,6 @@ const Effect = () => {
         console.log(json);
         setData(json);
     });
-    const CoutryList = props.data
-    .filter((area) => {
-      return area.
-    })
     };
     
     useEffect(() => {
@@ -57,4 +50,7 @@ const Effect = () => {
       );
     };
 
-export default Effect
+
+
+
+export default Countries

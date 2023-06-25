@@ -1,12 +1,13 @@
 
-import Country from "./Country";
-import Effect from "./Effect";
-import Fetch from "./Fetch";
-
+import  {countries} from "./Data";  
+import Decend from "./pages/descend/Decend";
+import Accend from "./pages/ascend/Accend";
+import Oceania from "./Oceania";
+import Countries from "./pages/countries/Countries";
 
 function App() {
   return (
-<Effect/>  
+<Decend data = {countries} />  
 )
 }
 
